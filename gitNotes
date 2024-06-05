@@ -1,19 +1,19 @@
 >> Initializing git
-1.We use 'git init' to initialize an empty git repository. For that we need to be in our desired folder or directory where we want to create our git repository. Now this folder will be tracked by git for any changes made to the folder.
+-> We use 'git init' to initialize an empty git repository. For that we need to be in our desired folder or directory where we want to create our git repository. Now this folder will be tracked by git for any changes made to the folder.
 
 >> Staging environment
-2.After initialization we add file to the folder, then we stage them or add them to the 'staging environment'. 
+-> After initialization we add file to the folder, then we stage them or add them to the 'staging environment'. 
 To stage any change we use the command 'git add <fileName>'. 
-3.If we want to add all the modifications done to various files, we use 'git add .'.
+-> If we want to add all the modifications done to various files, we use 'git add .'.
 If we want to stage all the files including the deleted files, we use 'git add --all' or 'git add -A'. 
 
 >> Git commit
-4.After some handful changes staged, we need to commit using 'git commit -m "messge"' where '-m' includes a message for that commit. git commit is like a savepoint, where in the future if we stuck after doing some changes in our code, we can get back to this savepoint i.e commit. Including a clear commit message is important to know what commit contains what?.
-5.If we change a minor change and if we want to directly commit the change without staging it, we can do so by using the command 'git commit -a -m "messge"'.
+-> After some handful changes staged, we need to commit using 'git commit -m "messge"' where '-m' includes a message for that commit. git commit is like a savepoint, where in the future if we stuck after doing some changes in our code, we can get back to this savepoint i.e commit. Including a clear commit message is important to know what commit contains what?.
+-> If we change a minor change and if we want to directly commit the change without staging it, we can do so by using the command 'git commit -a -m "messge"'.
 We can check the history of commits we made using 'git log'.
  
 >> Git help
-6.We can use 'git <command> -help' to get all the options available with the command (the 'command' needs to be replaced with the actual command like add, commit, e.t.c).
-7. If we want to open the manual page for a specific command, we use 'git <command> --help' instead of 'git <command -help'.
-8. The command 'git help --all' shows all the available various git commands out there.
+ -> We can use 'git <command> -help' to get all the options available with the command (the 'command' needs to be replaced with the actual command like add, commit, e.t.c).
+ -> If we want to open the manual page for a specific command, we use 'git <command> --help' instead of 'git <command -help'.
+ -> The command 'git help --all' shows all the available various git commands out there.
 While viewing the list of all the commands, we can navigate to the end of the list using 'SHIFT + G' and exit viewing the list by pressing 'q' 
