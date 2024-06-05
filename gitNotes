@@ -13,13 +13,11 @@ If we want to stage all the files including the deleted files, we use 'git add -
 We can check the history of commits we made using 'git log'.
  
 >> Git help
-<<<<<<< HEAD
-6.We can use 'git <command> -help' to get all the options available with the command (the 'command' needs to be replaced with the actual command like add, commit, e.t.c).
-7. If we want to open the manual page for a specific command, we use 'git <command> --help' instead of 'git <command -help'.
-8. The command 'git help --all' shows all the available various git commands out there.
+-> We can use 'git <command> -help' to get all the options available with the command (the 'command' needs to be replaced with the actual command like add, commit, e.t.c).
+-> If we want to open the manual page for a specific command, we use 'git <command> --help' instead of 'git <command -help'.
+-> The command 'git help --all' shows all the available various git commands out there.
 While viewing the list of all the commands, we can navigate to the end of the list using 'SHIFT + G' and exit viewing the list by pressing 'q'.
 
 >> Git branches
-9. If we want to add any feature or modify our code but do not want to stuck if something goes wrong by adding that new feature, we create an another branch and begin to add the new feature on the newly created branch. 
- Git command to create a new brach is 'git branch "newBranchName"'.
- After creating if we want to change the current branch to another branch to start working on it, we use 'git checkout <branchName>'. This changes the current branch to the branchName.
+-> If we want to add any feature or modify our code but do not want to stuck if something goes wrong by adding that new feature, we create an another branch and begin to add the new feature on the newly created branch. 
+-> Git command to create a new brach is 'git branch "newBranchName"'. After creating if we want to change the current branch to another branch to start working on it, we use 'git checkout <branchName>'. This changes the current branch to the branchName.
