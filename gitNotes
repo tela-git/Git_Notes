@@ -1,0 +1,6 @@
+We use 'git init' to initialize an empty git repository. For that we need to be in our desired folder or directory where we want to create our git repository. Now this folder will be tracked by git for any changes made to the folder.
+
+After initialization we add file to the folder, then we stage them or add them to the 'staging environment'. 
+To stage any change we use the command 'git add <fileName>'. 
+If we want to add all the modifications done to various files, we use 'git add .'.
+If we want to stage all the files including the deleted files, we use 'git add --all' or 'git add -A'. 
