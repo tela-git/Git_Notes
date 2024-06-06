@@ -21,3 +21,8 @@ While viewing the list of all the commands, we can navigate to the end of the li
 >> Git branches
 -> If we want to add any feature or modify our code but do not want to stuck if something goes wrong by adding that new feature, we create an another branch and begin to add the new feature on the newly created branch. 
 -> Git command to create a new brach is 'git branch "newBranchName"'. After creating if we want to change the current branch to another branch to start working on it, we use 'git checkout <branchName>'. This changes the current branch to the branchName.
+-> To delete any branch we use the command 'git branch -d <branchName>', where -d option indicates for branch deletion.
+>> Git merging branches
+-> Say we have two branches, and want to merge, we checkout to the master branch (or where the merging need to be happened), we use the command 'git merge <branchName>'.
+-> Sometimes merging two branches leads to a merge conflict, in that case we manually open the editor and solve the conflict.
+
