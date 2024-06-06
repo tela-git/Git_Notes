@@ -26,3 +26,14 @@ While viewing the list of all the commands, we can navigate to the end of the li
 -> Say we have two branches, and want to merge, we checkout to the master branch (or where the merging need to be happened), we use the command 'git merge <branchName>'.
 -> Sometimes merging two branches leads to a merge conflict, in that case we manually open the editor and solve the conflict.
 
+>> GitHub
+-> We use github an online platform to host, share , collaborate, edit... our code. To use it we need to create an account on github.com using the same email
+account which we used in configuring our local git account.We then create a repository on github.
+-> Now we need to connect our local repo and that one on github, to do so, we use the command 'git remote add origin https://github.com/user/repo-name'.
+Here 'remote' indicates that we want to work with remote repositories, and 'add' is used to add a repo as origin to our local machine. origin is used to indicate remote 
+repositories.
+
+>> Push
+-> Once we have setup our local repo and connected it to our online repo on github (or some other platform), we now need to push or upload the content on our local repo 
+to the online or remote repo. To do so, we use 'git push --set-upstream origin master' , indicates that we want to push what ever is on master to our origin, or online 
+repo on github. After successful authentication we can see changes on github.
