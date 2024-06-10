@@ -51,3 +51,9 @@ After successful authentication we can see changes on github.
   2. If there is any local branch is missing for any remote branch, use 'git checkout <branchName>', to check out that branch. Then the git pulls that remote branch to our local git.
   3. To ensure that the new branch is created and current you are active in that branch, use 'git branch' command.
 extra tip: We can use 'git branch -r' to list only remote branches.
+
+>> Delete a remote branch
+-> To delete a remote branch from terminal we use command 'git push <remoteName? --delete <branchName>'.
+   for example: 'git push origin --delete feature1'
+   This deletes the branch named 'feature1' from the remote repository.
+
