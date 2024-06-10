@@ -34,3 +34,8 @@ Here 'remote' indicates that we want to work with remote repositories, and 'add'
 >> Push
 -> Once we have setup our local repo and connected it to our online repo on github (or some other platform), we now need to push or upload the content on our local repo to the online or remote repo. To do so, we use 'git push --set-upstream origin master' , indicates that we want to push what ever is on master to our origin, or online repo on github. 
 After successful authentication we can see changes on github.
+
+>> Pull 
+-> We can also use the editor on the github website to update our code.Then we need to commit it. After doing so, we need to update our local repo on our local machine,once if we check 'git status' on our local repo, it seems to be clean. To get our local repo updated to the latest version of the available repo we use 'git fetch'. It fetches all the updates made to the repository online by us or our collaborators. We then need to reflect these changes to our local machine, we can achieve it so by using 'git merge origin/master', thus indicating that to merge our current local repo with the master branch on origin. 
+-> So to get our local repo refreshed or updated, we need to use the 'fetch and merge' commands. But there is an easy way to achieve the same functionality using 'git pull origin' command. This single command fetches and merges the updated data.
+
