@@ -31,7 +31,7 @@ While viewing the list of all the commands, we can navigate to the end of the li
 -> Now we need to connect our local repo and that one on github, to do so, we use the command 'git remote add origin https://github.com/user/repo-name'.
 Here 'remote' indicates that we want to work with remote repositories, and 'add' is used to add a repo as origin to our local machine. origin is used to indicate remote repositories.
 
->> Push
+>> Associating local and remote branches
 -> Once we have setup our local repo and connected it to our online repo on github (or some other platform), we now need to push or upload the content on our local repo to the online or remote repo. To do so, we use 'git push --set-upstream origin master' , indicates that we want to push what ever is on master to our origin, or online repo on github. 
 After successful authentication we can see changes on github.
 
