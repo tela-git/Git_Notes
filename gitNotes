@@ -41,3 +41,6 @@ After successful authentication we can see changes on github.
 
 >> Push
 -> When we make any changes on our local repository and commit. Then if we check the 'git status', we see that our local repository is one commit ahead of the origin repository. We push (update) the changes to our remote repository using 'git push origin'. Then our remote repository gets updated same as our local repository. Through 'git push origin' command we are saying git to push all the local updates and commits to our remote repository i.e origin. 
+
+>> New branch on gitHub
+-> We can also create a new branch on github, by clicking the branch button(master or the currently working branch), we can type the name of new branch and press on 'create branch <name> from master' to create a new branch named '<name>'.
