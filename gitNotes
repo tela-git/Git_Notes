@@ -57,3 +57,9 @@ extra tip: We can use 'git branch -r' to list only remote branches.
    for example: 'git push origin --delete feature1'
    This deletes the branch named 'feature1' from the remote repository.
 
+>> Pushing a new branch to gitHub
+-> Once we successfully created a new branch and made some commits on our local repository, we push the newly created branch to remote repository using the command 'git push <remoteName> <branchName>', the 'branchName' is our new branch on local repo which we want to push it to our remote repo. 
+ for example: 'git push origin notesV2'.
+-> After that we need to go the github website and accept the pull request.
+
+
