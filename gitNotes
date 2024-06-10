@@ -44,3 +44,10 @@ After successful authentication we can see changes on github.
 
 >> New branch on gitHub
 -> We can also create a new branch on github, by clicking the branch button(master or the currently working branch), we can type the name of new branch and press on 'create branch <name> from master' to create a new branch named '<name>'.
+
+>> Pull branch from gitHub
+-> When there is a new branch created from gitHub, we can pull that branch to our local git using the following steps: 
+  1.'use git branch -a' to check all the available branches (local and remote).
+  2. If there is any local branch is missing for any remote branch, use 'git checkout <branchName>', to check out that branch. Then the git pulls that remote branch to our local git.
+  3. To ensure that the new branch is created and current you are active in that branch, use 'git branch' command.
+extra tip: We can use 'git branch -r' to list only remote branches.
